@@ -1,0 +1,367 @@
+﻿<!doctype html>
+<!-- <html lang="en"> -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>TMI</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  </head>
+  
+  <body>
+    
+    <div class="hero-image">
+    <div class="hero-text" style="font-family:'KCC-eunyoung'">
+      <h1 style="font-size:60px"><strong>안녕하세요 김재형입니다</strong></h1>
+      <h4>멋사 7기 김재형입니다</h4>
+    </div>
+    </div>
+
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news"data-toggle="modal" data-target="#exampleModalScrollable">News</a></li>
+      <li><a href="#news"data-toggle="modal" data-target="#exampleModalScrollable">Contact</a></li>
+      <li><a href="#news"data-toggle="modal" data-target="#exampleModalScrollable">About</a></li>
+    </ul>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalScrollableTitle">팝업</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            안녕하세요 재형입니댜
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+            <button type="button" class="btn btn-primary" data-dismiss="modal" aria-label="Close">네</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <h1><br><br><strong>안녕하세요 김재형이에요</strong></h1>
+    <p>멋사 7기 김재형이에요</p>
+    
+    <img src="http://www.reactiongifs.com/wp-content/uploads/2013/07/ralph-wave.gif" class="rounded mx-auto d-block">
+    
+    <h1><br><br>전 맥주를 좋아해요</h1>
+    
+    <h4 style="text-align:center">맥주는 사랑입니다</h4>
+    
+    <img src="https://an1rgn-api.samsungcloud.com/mors/v2/public/download/M182JDOS7n0AfJSsSvGRlLBxlTDWRhDliffFiSKMYbZx5Kwcr_200?auth_code=0895" width="720px"></img>
+
+<!--<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="{% static '1536328014392.jpg' %}" style="width:720px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="{% static 'KakaoTalk_20190323_234455561.jpg' %}" style="width:720px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="{% static 'KakaoTalk_20190323_234207580.jpg' %}" style="width:720px">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="{% static '20180704_194430.jpg' %}" style="width:720px">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="{% static 'KakaoTalk_20190326_000313078.jpg' %}" style="width:720px">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="{% static 'KakaoTalk_20190323_234313854.jpg' %}" style="width:720px">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="{% static '1536328014392.jpg' %}" style="width:100%" onclick="currentSlide(1)" alt="가을에는 신촌 맥주축제도 갔죠">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static 'KakaoTalk_20190323_234455561.jpg' %}" style="width:100%" onclick="currentSlide(2)" alt="이게 뭐였더라">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static 'KakaoTalk_20190323_234207580.jpg' %}" style="width:100%" onclick="currentSlide(3)" alt="맛있다!">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static '20180704_194430.jpg' %}" style="width:100%" onclick="currentSlide(4)" alt="튀김에 맥주는 진리">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static 'KakaoTalk_20190326_000313078.jpg' %}" style="width:100%" onclick="currentSlide(5)" alt="이게 진짜 존맛이에요">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="{% static 'KakaoTalk_20190323_234313854.jpg' %}" style="width:100%" onclick="currentSlide(5)" alt="필라이트는 흠..">
+    </div>
+    
+  </div>
+</div>-->
+   
+    
+    <h1><br><br>그리고 전 고기를 잘 못 구워요</h1>
+    
+    <img src="https://an1rgn-api.samsungcloud.com/mors/v2/public/download/M182elagIY06UNaBideEpAxOsScEYekVbZYWYqlbT2QTWtAIp_200?auth_code=3956" class="rounded mx-auto d-block" width="720px">
+    <h4>바닥에 떨어진 삼겹살..ㅠㅠ</h4>
+     
+    <h1><br><br>저를 만나고 싶으시다면 신공학관 4층으로 오세요!</h1>
+
+    <div id="googleMap"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.8714740151568!2d126.99602911555056!3d37.558091779799426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca302befa0c31%3A0x56e51c74b1946e96!2z7ISc7Jq47Yq567OE7IucIO2VhOuPmSDrj5nqta3rjIDtlZnqtZAg7Iug6rO17ZWZ6rSA!5e0!3m2!1sko!2skr!4v1553351778798" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+    <h1><br><br>안녕</h1>
+    <img src="http://blogfiles.naver.net/MjAxODExMjFfMjY4/MDAxNTQyNzg4NjQwOTQ4.Sg94TQUzVEuQ7bcrcR2Y7_4cZ-2A9HnPLa8F2Wz0-REg.bLzbeKmOb9trKxbSXagKmxuvFyJt9O8jKq3mAxk9ppcg.JPEG.dustnr0829/10.jpg" class="rounded mx-auto d-block"/>
+
+    <p><br><br>이번 과제 재미있게 보셨나요?</p>
+    
+    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+    
+    <footer>
+      <p><br>Made by: 김재형</p>
+      <p>Contact Me: <a href="roy121@likelion.org">roy121@likelion.org</a><br></p>
+    </footer>
+
+    
+    <script>
+    //마지막에 엄지척
+    function myFunction(x) {
+      x.classList.toggle("fa-thumbs-down");
+    }
+    
+    //슬라이드쇼
+        var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+        
+    </script>
+
+
+    <style>
+        
+        @font-face { font-family: 'KCC-eunyoung'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KCC-eunyoung-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+        
+        ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+        }
+    
+        li {
+              float: left;
+        }
+    
+        li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+        }
+    
+        li a:hover {
+              background-color: #111;
+        }
+        
+        body {
+          
+            text-align:center;
+        }
+        
+         h1 {
+            font-size: 40px;
+        }
+        
+      
+          
+         body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          
+          .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://steamuserimages-a.akamaihd.net/ugc/84848492222296712/12AC0B359F826FBBBBA1B720E768E0B113A7A13F/");
+            height: 60%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+          }
+          
+          .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+          }
+          
+         .fa {
+            font-size: 50px;
+            cursor: pointer;
+            user-select: none;
+          }
+          
+          .fa:hover {
+            color: darkblue;
+          }
+          
+          
+          body {
+            font-family: Arial;
+            margin: 0;
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          
+          img {
+            vertical-align: middle;
+          }
+          
+          /* Position the image container (needed to position the left and right arrows) */
+          .container {
+            position: relative;
+          }
+          
+          /* Hide the images by default */
+          .mySlides {
+            display: none;
+          }
+          
+          /* Add a pointer when hovering over the thumbnail images */
+          .cursor {
+            cursor: pointer;
+          }
+          
+          /* Next & previous buttons */
+          .prev,
+          .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+          }
+          
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+          
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover,
+          .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+          }
+          
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+          
+          /* Container for image text */
+          .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+          }
+          
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Six columns side by side */
+          .column {
+            float: left;
+            width: 16.66%;
+          }
+          
+          /* Add a transparency effect for thumnbail images */
+          .demo {
+            opacity: 0.6;
+          }
+          
+          .active,
+          .demo:hover {
+            opacity: 1;
+          }
+        
+    </style>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
